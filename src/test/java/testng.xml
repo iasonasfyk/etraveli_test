@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Stevia-Test-Suite">
+    <parameter name="rcHost" value="localhost"/>
+    <parameter name="targetHostUrl" value="https://www.flightnetwork.com/"/>
+    <parameter name="debugging" value="true"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="profile" value=""/>
+    <parameter name="driverType" value="webdriver"/>
+    <parameter name="actionsLogging" value="true"/>
+    <parameter name="tests.takeScreenshot" value="true"/>
+    <listeners>
+        <listener class-name="com.persado.oss.quality.stevia.selenium.listeners.TestListener"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+    <test name="Stevia Test" preserve-order="true">
+        <classes>
+            <class name="test.FiltersTest"/>
+        </classes>
+    </test>
+</suite>
