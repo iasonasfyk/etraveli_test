@@ -14,6 +14,7 @@
 
     <bean id="mainPage" class="pages.MainPageObject"/>
     <bean id="resultsPage" class="pages.ResultsPageObject"/>
+    <bean id="baseObject" class="pages.BaseObject"/>
 
 
 </beans>
