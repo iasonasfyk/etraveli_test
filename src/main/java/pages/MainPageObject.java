@@ -1,4 +1,4 @@
-package test;
+package pages;
 
 import com.persado.oss.quality.stevia.selenium.core.WebComponent;
 import com.persado.oss.quality.stevia.selenium.core.controllers.commonapi.KeyInfo;

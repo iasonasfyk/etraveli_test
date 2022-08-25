@@ -4,6 +4,8 @@ import com.persado.oss.quality.stevia.spring.SteviaTestBase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+import pages.BaseObject;
+import pages.ResultsPageObject;
 
 /**
  * Purpose of this test is to test some results filters:
