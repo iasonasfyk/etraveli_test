@@ -4,7 +4,6 @@ import com.persado.oss.quality.stevia.selenium.core.WebComponent;
 import com.persado.oss.quality.stevia.selenium.core.controllers.commonapi.KeyInfo;
 import org.springframework.stereotype.Component;
 
-@Component
 public class MainPageObject extends WebComponent {
     public enum MainPageLocators {
 

@@ -5,14 +5,13 @@ import org.springframework.stereotype.Component;
 import org.testng.Assert;
 
 
-@Component
 public class BaseObject {
 
     @Autowired
-    MainPageObject mainPageObject;
+    protected MainPageObject mainPageObject;
 
     @Autowired
-    ResultsPageObject resultsPageObject;
+    protected ResultsPageObject resultsPageObject;
 
     /**
      * input a custom flight configuration in main page

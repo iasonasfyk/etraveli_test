@@ -3,7 +3,6 @@ package pages;
 import com.persado.oss.quality.stevia.selenium.core.WebComponent;
 import org.springframework.stereotype.Component;
 
-@Component
 public class ResultsPageObject extends WebComponent {
 
     public enum ResultsPageLocators {
